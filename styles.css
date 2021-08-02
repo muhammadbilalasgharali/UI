@@ -115,6 +115,7 @@ header {
     }
     
 }
+
 .text-color-white {
     color: white;
 }
@@ -127,14 +128,6 @@ header {
     background-color: black;
 }
 
-/* .trapezoid {
-	border-bottom: 50px solid red;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	height: 0;
-	width: 125px;
-    
-} */
 
 /* section-1 start from here */
 
@@ -148,45 +141,10 @@ header {
     padding: 20px 0;
 }
 
-/* .navbar {
-    width: 85%;
-    padding: 2% 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 .logo {
     width: 120px;
     cursor: pointer;
 }
-
-/* .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-}
-
-.navbar ul li::after {
-    content: '';
-    height:3px;
-    width:0%;
-  
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-bottom: -10px;
-    transition: 0.3s;
-}
-
-.navbar ul li:hover::after {
-    width: 110%;
-}*/
 
 .content {
     margin: 200px;
@@ -286,6 +244,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding:40px 0;
 }
 
  .section-2 h1 {
@@ -296,7 +255,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    top:40%;
     margin: 0 auto;
     justify-content: center;
 }
@@ -309,10 +267,10 @@ header {
     margin:20px;
 }
 
+
  /* section-2 Responsive */
 
-
- @media screen and (max-width: 1587px) {
+@media screen and (max-width: 1587px) {
     .section-2 h1 {
         font-size: 55px;
         top: 20%;
@@ -322,9 +280,6 @@ header {
         top:23%;
     }
 }
-
-
-
 
 @media screen and (max-width: 1270px) {
     .section-2 h1 {
@@ -351,27 +306,20 @@ header {
 }
 
 
-
-
-
 /* section-3 start form here */
+
 .section-3 {
     display: flex;  
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .sec-3-box {
     flex-basis: 50%;
-    /* text-align: left; */
-    /* align-items: left;  */
 }
 
 .sec-3-box div {
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: horizontal;
-    align-items: center; */
-        padding:200px 40px; 
+    padding:200px 40px; 
 }
 .sec-3-box div h1{
     font-size: 80px;
@@ -379,8 +327,7 @@ header {
 
 .sec-3-box img {
     height: 100%;
-    width: 100%;
-    
+    width: 100%; 
 } 
 
 .sec-3-box button{
@@ -394,7 +341,8 @@ header {
 }
 
  /* Restonsive Section-3 */
-@media screen and (max-width: 1670px) {
+
+ @media screen and (max-width: 1670px) {
     .sec-3-box div h1{
         font-size: 70px;
     }
@@ -419,9 +367,10 @@ header {
 }
 
 @media screen and (max-width: 1104px) {
-    .sec-3-box div h1{
+    .sec-3-box div h1 {
         font-size: 80px;
     }
+
     .section-3 {
         flex-direction: column;
     }
@@ -435,29 +384,30 @@ header {
 
 
 @media screen and (max-width: 663px) {
-    .sec-3-box div h1{
+    .sec-3-box div h1 {
         font-size: 40px;
     }
+
     .sec-3-box div {
         padding:70px 20px; 
     } 
 }
 
 @media screen and (max-width: 450px) {
-    .sec-3-box div h1{
+    .sec-3-box div h1 {
         font-size: 30px;
     }
 }
 
+
  /* Section-4 Start from here */
-.scetion-4 {
+
+ .scetion-4 {
     display: flex;  
     flex-wrap: wrap;
-    
     background-color: #1e1b1f;
     text-align: center;
-    align-items: center;
-    
+    align-items: center;    
     padding:80px 0px;
 }
 
@@ -516,48 +466,142 @@ header {
 }
 
 
-.section-6 {
-    background-image: url(images/h2-background-img-3.jpg);
-   
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-size: 100%;
 
+
+
+
+/* section-5 start form here */
+
+.section-5 {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-5-box {
+    flex-basis: 50%;
+}
+
+.sec-5-box div {
+    padding:200px 40px; 
+}
+.sec-5-box div h1{
+    font-size: 80px;
+}
+
+.sec-5-box img {
+    height: 100%;
+    width: 100%;
+    
+} 
+
+.sec-5-box button{
+    background-color: red;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+    margin:20px 0 0 0;
+}
+
+ /* Restonsive Section-3 */
+
+ @media screen and (max-width: 1670px) {
+    .sec-5-box div h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1483px) {
+    .sec-5-box div h1{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1670px) {
+    .sec-5-box div h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1296px) {
+    .sec-5-box div h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1104px) {
+    .sec-5-box div h1 {
+        font-size: 80px;
+    }
+
+    .section-5 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .sec-5-box div h1{
+        font-size: 65px;
+    }
+}
+
+
+@media screen and (max-width: 663px) {
+    .sec-5-box div h1 {
+        font-size: 40px;
+    }
+
+    .sec-5-box div {
+        padding:70px 20px; 
+    } 
+}
+
+@media screen and (max-width: 450px) {
+    .sec-5-box div h1 {
+        font-size: 30px;
+    }
+}
+
+
+
+
+ /* Section-6 Start from here */
+
+.section-6 {
+    background-image: url(images/h2-background-img-3.jpg);   
+    width: 100%;
+    padding:10vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-repeat:repeat-y;
 }
 
 .sec-6-inner {
     background-image: url(images/h2-video-img-1.jpg);
     width: 70%;
-    height: 100%;
-    
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: 100%;
-
+    padding:10vw 0;
     display: flex;
     text-align: center;
-    justify-content: center;
     align-items: center;
-
-}
-
-.section-6 img {
-    display: block;
+    justify-content: center;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .section-6 i {
-    
     font-size:10vw;
 }
 
-@media  screen and (max-width: 800px) {
+@media screen and { max-
     
 }
 
 /* Section-7 Start form here */
+
 .bottom-menu-bar {
     display: flex;
     flex-wrap: wrap;
