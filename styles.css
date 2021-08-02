@@ -92,7 +92,7 @@ header {
         text-align: left;
         width: 100%;
         height: 50px;
-        background-color: black;
+        /* background-color: black; */
         padding: 10px 0px 10px 5%;
     }
 
@@ -129,9 +129,9 @@ header {
 }
 
 
-/* section-1 start from here */
+/* main-menu start from here */
 
-.section-1 {
+.main-menu {
   
     background-image: url(images/hero-image.png);
     background-position: center;
@@ -155,7 +155,7 @@ header {
     font-size: 110px;
 }
 
-.section-1 button {
+.main-menu button {
     width: 200px;
     height: 60px;
     padding:15px 0;
@@ -200,7 +200,7 @@ header {
         width: 60px;
     }
 
-    .section-1 button {
+    .main-menu button {
         width: 150px;
         padding:10px 0;
         margin: 10px 10px;
@@ -238,7 +238,7 @@ header {
 
 
 /* section 2 start from here */
-.section-2 {
+.games-appstore {
     width:100%;
     background-color:#1b191d;
     background-position: center;
@@ -248,7 +248,7 @@ header {
     padding: 80px 0;
 }
 
- .section-2 h1 {
+ .games-appstore h1 {
     font-size: 60px;
 }
 
@@ -269,10 +269,10 @@ header {
 }
 
 
- /* section-2 Responsive */
+ /* games-appstore Responsive */
 
 @media screen and (max-width: 1587px) {
-    .section-2 h1 {
+    .games-appstore h1 {
         font-size: 55px;
         top: 20%;
     }
@@ -283,7 +283,7 @@ header {
 }
 
 @media screen and (max-width: 1270px) {
-    .section-2 h1 {
+    .games-appstore h1 {
         font-size: 55px;
         top: 20%;
     }    
@@ -300,38 +300,38 @@ header {
 }
     
 @media screen and (max-width: 663px) {
-    .section-2 h1 {
+    .games-appstore h1 {
         font-size: 35px;
         top: 10%;
     }
 }
 
 
-/* section-3 start form here */
+/* dreams-div start form here */
 
-.section-3 {
+.dreams-div {
     display: flex;  
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
-.sec-3-box {
+.dreams-div-box {
     flex-basis: 50%;
 }
 
-.sec-3-box div {
-    padding:200px 40px; 
+.dreams-div-box div {
+    padding:170px 40px; 
 }
-.sec-3-box div h1{
+.dreams-div-box div h1{
     font-size: 80px;
 }
 
-.sec-3-box img {
-    height: 100%;
+.dreams-div-box img {
     width: 100%; 
 } 
 
-.sec-3-box button{
+.dreams-div-box button{
     background-color: red;
     width: 120px;
     height: 40px;
@@ -341,69 +341,77 @@ header {
     margin:20px 0 0 0;
 }
 
- /* Restonsive Section-3 */
+ /* Restonsive dreams-div */
 
  @media screen and (max-width: 1670px) {
-    .sec-3-box div h1{
+    .dreams-div-box div h1{
         font-size: 70px;
+    }
+
+    .dreams-div-box div {
+        padding:150px 40px; 
     }
 }
 
 @media screen and (max-width: 1483px) {
-    .sec-3-box div h1{
+    .dreams-div-box div h1{
         font-size: 60px;
+    }
+
+    .dreams-div-box div {
+        padding:120px 40px; 
     }
 }
 
 @media screen and (max-width: 1670px) {
-    .sec-3-box div h1{
+    .dreams-div-box div h1{
         font-size: 70px;
     }
 }
 
 @media screen and (max-width: 1296px) {
-    .sec-3-box div h1{
+    .dreams-div-box div h1{
         font-size: 50px;
     }
 }
 
 @media screen and (max-width: 1104px) {
-    .sec-3-box div h1 {
+    .dreams-div-box div h1 {
         font-size: 80px;
     }
 
-    .section-3 {
+    .dreams-div {
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 834px) {
-    .sec-3-box div h1{
+    .dreams-div-box div h1{
         font-size: 65px;
     }
 }
 
 
 @media screen and (max-width: 663px) {
-    .sec-3-box div h1 {
+    .dreams-div-box div h1 {
         font-size: 40px;
     }
 
-    .sec-3-box div {
+    .dreams-div-box div {
         padding:70px 20px; 
     } 
 }
 
 @media screen and (max-width: 450px) {
-    .sec-3-box div h1 {
+    .dreams-div-box div h1 {
         font-size: 30px;
     }
 }
 
 
- /* Section-4 Start from here */
+ /* user-reviews Start from here */
 
- .scetion-4 {
+ .user-reviews {
     display: flex;  
     flex-wrap: wrap;
     background-color: #1e1b1f;
@@ -412,25 +420,25 @@ header {
     padding:80px 0px;
 }
 
-.sec-4-box {
+.user-reviews-box {
     flex-basis: 25%;
 }
 
-.sec-4-box:nth-of-type(2) {
+.user-reviews-box:nth-of-type(2) {
     flex-basis: 50%;
 }
 
-.sec-4-box h1 {
+.user-reviews-box h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.sec-4-box h2 {
+.user-reviews-box h2 {
     margin-top: 15px;
     font-size: 20px;
 }
 
-.sec-4-box a {
+.user-reviews-box a {
     font-size: 20px;
     width:200px;
     height: 200px;   
@@ -440,28 +448,28 @@ header {
     padding:10px
 }
 
-/* Responsive Section-4*/
+/* Responsive user-reviews*/
 
 @media screen and (max-width: 1104px) {
-    .sec-4-box h1 {
+    .user-reviews-box h1 {
         font-size: 40px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .sec-4-box h1 {
+    .user-reviews-box h1 {
         font-size: 30px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .sec-4-box h1 {
+    .user-reviews-box h1 {
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 456px) {
-    .sec-4-box h1 {
+    .user-reviews-box h1 {
         font-size: 15px;
     }
 }
@@ -471,32 +479,32 @@ header {
 
 
 
-/* section-5 start form here */
+/* robot-cave start form here */
 
-.section-5 {
+.robot-cave {
     display: flex;  
     justify-content: center;
     align-items: center;
 }
 
-.sec-5-box {
+.robot-cave-box {
     flex-basis: 50%;
 }
 
-.sec-5-box div {
+.robot-cave-box div {
     padding:200px 40px; 
 }
-.sec-5-box div h1{
+.robot-cave-box div h1{
     font-size: 80px;
 }
 
-.sec-5-box img {
+.robot-cave-box img {
     height: 100%;
     width: 100%;
     
 } 
 
-.sec-5-box button{
+.robot-cave-box button{
     background-color: red;
     width: 120px;
     height: 40px;
@@ -506,61 +514,61 @@ header {
     margin:20px 0 0 0;
 }
 
- /* Restonsive Section-3 */
+ /* Responsive dreams-div */
 
  @media screen and (max-width: 1670px) {
-    .sec-5-box div h1{
+    .robot-cave-box div h1{
         font-size: 70px;
     }
 }
 
 @media screen and (max-width: 1483px) {
-    .sec-5-box div h1{
+    .robot-cave-box div h1{
         font-size: 60px;
     }
 }
 
 @media screen and (max-width: 1670px) {
-    .sec-5-box div h1{
+    .robot-cave-box div h1{
         font-size: 70px;
     }
 }
 
 @media screen and (max-width: 1296px) {
-    .sec-5-box div h1{
+    .robot-cave-box div h1{
         font-size: 50px;
     }
 }
 
 @media screen and (max-width: 1104px) {
-    .sec-5-box div h1 {
+    .robot-cave-box div h1 {
         font-size: 80px;
     }
 
-    .section-5 {
+    .robot-cave {
         flex-direction: column;
     }
 }
 
 @media screen and (max-width: 834px) {
-    .sec-5-box div h1{
+    .robot-cave-box div h1{
         font-size: 65px;
     }
 }
 
 
 @media screen and (max-width: 663px) {
-    .sec-5-box div h1 {
+    .robot-cave-box div h1 {
         font-size: 40px;
     }
 
-    .sec-5-box div {
+    .robot-cave-box div {
         padding:70px 20px; 
     } 
 }
 
 @media screen and (max-width: 450px) {
-    .sec-5-box div h1 {
+    .robot-cave-box div h1 {
         font-size: 30px;
     }
 }
@@ -568,9 +576,9 @@ header {
 
 
 
- /* Section-6 Start from here */
+ /* office-div Start from here */
 
-.section-6 {
+.office-div {
     background-image: url(images/h2-background-img-3.jpg);   
     width: 100%;
     padding:10vw 0;
@@ -580,7 +588,7 @@ header {
     background-repeat:repeat-y;
 }
 
-.sec-6-inner {
+.office-div-inner {
     background-image: url(images/h2-video-img-1.jpg);
     width: 70%;
     padding:10vw 0;
@@ -593,13 +601,14 @@ header {
     background-size: cover;
 }
 
-.section-6 i {
+.office-div i {
     font-size:10vw;
 }
 
 
-/* Section-7 Start form here */
-.section-7 {
+/* last-menu Start form here */
+
+.last-menu {
     padding: 0px 200px;
 }
 .bottom-menu-bar {
@@ -617,30 +626,33 @@ header {
     flex-basis: 16%;
 }
 
-.sec-7-icon {
+.last-menu-icon {
     display: flex;
     justify-content: center;
     padding: 10px;
 }
-.sec-7-icon i {
+.last-menu-icon i {
     margin: 15px;
 }
 
-.sec-7-content {
+.last-menu-content {
     padding:30px 50px;
 }
 
 
 @media screen and (max-width: 1485px)
 {
-    .section-7 {
+    .last-menu {
         padding: 0px 100px;
     }
 }
 
 @media screen and (max-width: 551px)
 {
-    .section-7 {
+    .last-menu {
         padding: 0px 10px;
+    }
+    .last-menu-content {
+        padding:10px 15px;
     }
 }
